@@ -24,7 +24,7 @@ services:
             - LEAN_DB_PASSWORD=321.qwerty
             - LEAN_DB_DATABASE=leantime
         container_name: leantime
-        image: 'leantime/leantime:latest'
+        image: 'leantime/leantime:2.1.9'
 networks:
   leantime-net:
     external: false
